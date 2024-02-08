@@ -8,5 +8,5 @@ public class Attendee
     public int EventId { get; set; }
     public string Name { get; set; }
     public string Email { get; set; }
-    public int RegistrationTime { get; set; }
+    public DateTime RegistrationTime { get; set; }
 }
